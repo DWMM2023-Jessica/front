@@ -724,4 +724,31 @@ const dropDownMenu = document.querySelector('.dropdown_menu')
 toggleBtn.onclick = function() {
     dropDownMenu.classList.toggle('open')
     const isOpen = dropDownMenu.classList.contains('open')
+
 }
+
+const toggleBtnAccueil = document.querySelector('.menuAccueil')
+
+    toggleBtnAccueil.onclick = function() {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+            }
+const toggleBtnQui = document.querySelector('.menuQui')
+
+    toggleBtnQui.onclick = function() {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+}
+const toggleBtnRea = document.querySelector('.menuRea')
+
+    toggleBtnRea.onclick = function() {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+}
+const toggleBtnContact = document.querySelector('.menuContact')
+
+    toggleBtnContact.onclick = function() {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+}
+
