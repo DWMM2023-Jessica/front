@@ -1,3 +1,6 @@
+
+// REALISATION
+
 function base_rea() {
     let h3Elements = document.querySelectorAll('.h3Realisation, .bestImg');
     h3Elements.forEach(h3Element => {
@@ -301,6 +304,7 @@ function showH3_2() {
     });
 }
 
+
 function showH3_3() {
     let h3Elements = document.querySelectorAll('.h3Realisation, .bestImg');
     h3Elements.forEach(h3Element => {
@@ -392,6 +396,7 @@ function showH3_3() {
         h3Element.style.color= '#346077';
     });
 }
+
 
 function showH3_4() {
     let h3Elements = document.querySelectorAll('.h3Realisation, .bestImg');
@@ -487,9 +492,6 @@ function showH3_4() {
 }
 
 
-
-
-
 function showPhone_1() {
     let h3Elements = document.querySelectorAll('.best1ImgTel, #modal_pos1');
     h3Elements.forEach(h3Element => {
@@ -546,6 +548,8 @@ function showPhone_1() {
         h3Element.style.color= '#ffffff';
     });
 }
+
+
 function showPhone_2() {
     let h3Elements = document.querySelectorAll('.best1ImgTel, #modal_pos1');
     h3Elements.forEach(h3Element => {
@@ -602,6 +606,8 @@ function showPhone_2() {
         h3Element.style.color= '#ffffff';
     });
 }
+
+
 function showPhone_3() {
     let h3Elements = document.querySelectorAll('.best1ImgTel, #modal_pos1');
     h3Elements.forEach(h3Element => {
@@ -658,6 +664,8 @@ function showPhone_3() {
         h3Element.style.color= '#ffffff';
     });
 }
+
+
 function showPhone_4() {
     let h3Elements = document.querySelectorAll('.best1ImgTel, #modal_pos1');
     h3Elements.forEach(h3Element => {
@@ -717,6 +725,9 @@ function showPhone_4() {
 
 
 
+
+
+// NAVBAR MENU BURGER 
 const toggleBtn = document.querySelector('.toggle_btn')
 const toggleBtnIcon = document.querySelector('.toggle_btn')
 const dropDownMenu = document.querySelector('.dropdown_menu')

@@ -13,6 +13,8 @@
     <title>L'empreinte du peintre by Jessica</title>
 </head>
 <body>
+
+    <!-- HEADER -->
     <header>
         <div class="encoche"></div>
         <div class="menu">
@@ -45,16 +47,16 @@
     </header>
     
    <!-- Button trigger modal -->
-<button type="button" class="btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    DEVIS
-  </button>
-  
-  
+     <button type="button" class="btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+         DEVIS
+     </button>
+
+     <!-- DEVIS -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="tamere modal-content">
+      <div class="mod modal-content">
         <div class="modal-header">
-          <h1 class="tonpere modal-title fs-5" id="exampleModalLabel">Vos devis garantie sous 15 jours*</h1>
+          <h1 class="modd modal-title fs-5" id="exampleModalLabel">Vos devis garantie sous 15 jours*</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -94,9 +96,9 @@
     </div>
   </div>
    
-
+     <!-- QUI SUIS JE -->
     <section class="quisuisje">
-        <div class="contenair">
+        <div class="contnr">
             <div class="H1">
                 <h1>L'empreinte du peintre by Jessica</h1>
             </div>
@@ -105,8 +107,8 @@
             </div>
             <p class="titreQuiSuisJe">Qui suis-je ?</p>
             <div class="wor">
-              <div class="col-4 mb-8">
-                <div class="col-8 mb-5"><img src="img/IMG_20230831_091803.jpg" alt="image qui sui je"></div>
+              <div class="imgheader">
+                <div class="image"><img src="img/IMG_20230831_091803.jpg" alt="image qui sui je"></div>
             </div>
               <div class="texteheader">
                   <p class="texte-qui" id="tabreal">Je suis une jeune entrepreneuse, une artisan peintre  spécialisée dans
@@ -124,7 +126,7 @@
     </section>
     
 
-  
+     <!-- REALISATIOONS -->
     <section class="RealisationContainer">
         
         <!-- H2 manipulait avec JS -->
@@ -704,14 +706,8 @@
         </div>
     </section>
 
-  
 
-  
-
-
-
-
-
+     <!-- MES ENGAGEMENTS -->
     <section class="mesengagements">
         <h3 class="TitreEngagement"> Mes engagements</h3>
         <h4 class="PharseAccrocheEngagment">Choisir mon entreprise, c'est choisir  l'expertise et un travail soigné</h4>
@@ -752,11 +748,8 @@
         </div> 
     </section>
 
-
     
-
-
-
+     <!-- 4 CARDS PC -->
     <section class="four_cards_of_pc">
         
         <div class="four_cards_container ">
@@ -789,6 +782,9 @@
             </div>
         </div>
     </section>
+
+
+    <!-- 4 CARDS TABLETTE -->
     <section class="four_cards_of_tab">
         
         <div class="four_cards_container ">
@@ -822,6 +818,8 @@
         </div>
     </section>
 
+
+    <!-- 4 CARDS MOBILE -->
     <section class="four_cards_of_mob">
         <div class="container-carousel">
                 <div id="myCarousel7" class="carouselmod carousel slide mb-6" data-bs-ride="carousel" id="exampleModalLabel7">
@@ -900,10 +898,7 @@
     </section>
 
 
-
-
-
-
+     <!-- FOURNISSEURS -->
     <section class="nosfournisseurs">
         <h2 class="fournisseur">Nos Partenaires</h2>
         <h3 class="textefournisseur">Ensemble, nous avançons avec confiance.</h3>
@@ -913,6 +908,8 @@
          </div>
     </section>
 
+
+    <!-- PARTENAIRES -->
     <section class="nospartenaires" >
         <h2 class="fournisseur" >Nos fournisseurs</h2>
         <h3 class="textefournisseur">Nous sommes entourés de fournisseurs fiables et reconnus dans le domaine des matériaux de construction et de finition.</h3>
@@ -925,6 +922,7 @@
     </section>
 
 
+    <!-- CONTACT -->
     <section class="contact" >
         <div class="color_Fond">
             <h1 class="section_formtitre">CONTACTEZ-NOUS</h1>
@@ -961,6 +959,8 @@
         </div>
     </section>
 
+
+    <!-- FOOTERy -->
     <section class="footerr">
         <div class="reseau">
             <p>Rejoignez moi sur mes réseaux sociaux</p>
